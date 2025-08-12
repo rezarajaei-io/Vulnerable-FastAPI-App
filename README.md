@@ -58,7 +58,7 @@ This application exposes the following intentionally vulnerable endpoints for te
 
 3.  **Run the application:**
     ```bash
-    uvicorn vulnerable_app:app --reload
+    uvicorn app:app --reload
     ```
 
 The application will now be running at `http://127.0.0.1:8000`.
